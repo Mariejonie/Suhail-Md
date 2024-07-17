@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || ""                       // put your app url here,
+global.appUrl=process.env.APP_URL || "https://replit.com/@joniemarie28/Suhail-Md-11#config.js"                       // put your app url here,
 global.email ="joniemarie28@gmail.com"
 global.location="Nairobi,Kenya."
 
